@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="main-doc">
+        <div>
+        <section id="Inicio" class="main-section">
+            <header id="Inicio">Inicio</header>
+            <p id="p">es un lenguaje de alto nivel de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta parcialmente la orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.</p>
+            <p id="p">Administrado por Python Software Foundation, posee una licencia de código abierto, denominada Python Software Foundation License. Python se clasifica constantemente como uno de los lenguajes de programación más populares.</p>
+        </section>
+        <section id="Historia" class="main-section">
+            <header id="Historia">Historia</header>
+            <p id="p">Python fue creado a finales de los años ochenta por Guido van Rossum en Stichting Mathematisch Centrum (CWI), en Países Bajos, como un sucesor del lenguaje de programación ABC, capaz de manejar excepciones e interactuar con el sistema operativo Amoeba.</p>
+            <p id="p">El nombre del lenguaje proviene de la afición de su creador por los humoristas británicos Monty Python.</p>
+            <p id="p">Con Python 3.5 llegaría el soporte incluido para entrada/salida asíncrona a través de la biblioteca asyncio, orientada a aplicaciones que requieren alto rendimiento de código concurrente, como servidores web, bibliotecas de conexión de bases de datos y colas de tareas distribuidas.
+
+                En la actualidad, Python se aplica en los campos de inteligencia artificial y machine learning.</p>
+        </section>
+        <section id="Caracteristicas" class="main-section">
+            <header id="Caracteristicas">Caracteristicas</header>
+            <p id="p">Python es un lenguaje de programación multiparadigma. Esto significa que más que forzar a los programadores a adoptar un estilo particular de programación, permite varios estilos: programación orientada a objetos, programación imperativa y programación funcional. Otros paradigmas están soportados mediante el uso de extensiones.</p>
+            <p id="p">Python usa tipado dinámico y conteo de referencias para la gestión de memoria.</p>
+            <p id="p">Una característica importante de Python es la resolución dinámica de nombres; es decir, lo que enlaza un método y un nombre de variable durante la ejecución del programa (también llamado enlace dinámico de métodos).</p>
+            <p id="p">Otro objetivo del diseño del lenguaje es la facilidad de extensión. Se pueden escribir nuevos módulos fácilmente en C o C++. Python puede incluirse en aplicaciones que necesitan una interfaz programable.</p>
+        </section>
+        <section id="Filosofia" class="main-section">
+            <header id="Filosofia">Filosofia</header>
+            <p id="p">Los usuarios de Python se refieren a menudo a la filosofía de Python, que es bastante similar a la filosofía de Unix. El código que siga los principios de Python es reconocido como "pythónico". </p>
+            <p id="p">Estos principios fueron descritos por el desarrollador de Python Tim Peters en El Zen de Python:</p>
+            <ul id="lista">
+                <li id="lista-li">Bello es mejor que feo.</li>
+                <li id="lista-li">Explícito es mejor que implícito.</li>
+                <li id="lista-li">Simple es mejor que complejo.</li>
+                <li id="lista-li">Complejo es mejor que complicado.</li>
+                <li id="lista-li">Plano es mejor que anidado.</li>
+                <li id="lista-li">Disperso es mejor que denso.</li>
+                <li id="lista-li">La legibilidad cuenta.</li>
+            </ul>
+        </section>
+        <section id="Modo_Interactivo" class="main-section">
+            <header id="Modo_Interactivo">Modo Interactivo</header>
+            <p id="p">El intérprete de Python estándar incluye un modo interactivo en el cual se escriben las instrucciones en una especie de intérprete de comandos: las expresiones pueden ser introducidas una a una, pudiendo verse el resultado de su evaluación inmediatamente, lo que da la posibilidad de probar porciones de código en el modo interactivo antes de integrarlo como parte de un programa. Esto resulta útil tanto para las personas que se están familiarizando con el lenguaje como para los programadores más avanzados.</p>
+            <p id="p">Ejemplo del modo interactivo:</p>
+            <div id="code">
+                <code id="codigo">
+                    >>> 1 + 1 <br>
+                    2 <br>
+                    >>> a = range(10) <br>
+                    >>> print(list(a)) <br>
+                    [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] <br>
+                </code>
+            </div>
+        </section>
+        <section id="Comentarios" class="main-section">
+            <header id="Comentarios">Comentarios</header>
+            <p id="p">Los comentarios se pueden poner de dos formas. La primera y más apropiada para comentarios largos es utilizando la notación ''' comentario ''', tres apóstrofos de apertura y tres de cierre. La segunda notación utiliza el símbolo #, que se extiende hasta el final de la línea.</p>
+            <div id="code">
+                <code id="codigo">'''<br>
+                    Comentario más largo en una línea en Python <br>
+                    ''' <br>
+                    print("Hola mundo")  # También es posible añadir un comentario al final de una línea de código</code>
+            </div>            
+        </section>
+        <section id="Variables" class="main-section">
+            <header id="Variables">Variables</header>
+            <p id="p">Las variables se definen de forma dinámica, lo que significa que no se tiene que especificar cuál es su tipo de antemano y puede tomar distintos valores en otro momento, incluso de un tipo diferente al que tenía previamente. Se usa el símbolo = para asignar valores.</p>
+            <div id="code">
+                <code id="codigo">x = 1 <br>
+                    x = "texto"  # Esto es posible porque los tipos son asignados dinámicamente</code>
+            
+            <code id="codigo">x = 1 <br>
+                x = "texto"  # Esto es posible porque los tipos son asignados dinámicamente</code>
+            </div>
+        </section>
+        <section  id="Condicionales" class="main-section">
+            <header id="Condicionales">Condicionales</header>
+            <p id="p">Una sentencia condicional ejecuta su bloque de código interno solo si se cumple cierta condición. Se define usando la palabra clave if seguida de la condición y el bloque de código. Si existen condiciones adicionales, se introducen usando la palabra clave elif seguida de la condición y su bloque de código.</p>
+            <div id="code">
+                <code id="codigo">
+                    >>> verdadero = True <br>
+                    >>> if verdadero:  # No es necesario poner "verdadero == True"<br>
+                    ...     print("Verdadero")<br>
+                    ... else:<br>
+                    ...     print("Falso")<br>
+                    ...<br>
+                    Verdadero<br>
+                    >>> lenguaje = "Python"<br>
+                    >>> if lenguaje == "C":  # lenguaje no es "C", por lo que este<br> bloque se obviará y evaluará la siguiente condición
+                    ...     print("Lenguaje de programación: C")<br>
+                    ... elif lenguaje == "Python":  # Se pueden añadir tantos bloq<br>ues "elif" como se quiera
+                    ...     print("Lenguaje de programación: Python")<br>
+                    ... else:  # En caso de que ninguna de las anteriores condicio<br>nes fuera cierta, se ejecutaría este bloque
+                    ...     print("Lenguaje de programación: indefinido")<br>
+                    ...<br>
+                    Lenguaje de programación: Python<br>
+                    >>> if verdadero and lenguaje == "Python":  # Uso de "and" par<br>a comprobar que ambas condiciones son verdaderas
+                    ...     print("Verdadero y Lenguaje de programación: Python")<br>
+                    ...<br>
+                    Verdadero y Lenguaje de programación: Python</code>
+            </div>
+            
+        </section>
+        <section id="Bucle_for" class="main-section">
+            <header id="Bucle_for">Bucle for</header>
+            <p id="p">El bucle for es similar a foreach en otros lenguajes. Recorre un objeto iterable, como una lista, una tupla o un generador, y por cada elemento del iterable ejecuta el bloque de código interno. Se define con la palabra clave for seguida de un nombre de variable, seguido de in, seguido del iterable, y finalmente el bloque de código interno. </p>
+            <div id="code">
+                <code id="codigo">
+                    >>> lista = ["a", "b", "c"] <br>
+                    >>> for i in lista:  # Iteramos sobre una lista, que es iterable <br>
+                    ...     print(i) <br>
+                    ...<br>
+                    a<br>
+                    b<br>
+                    c<br>
+                    >>> cadena = "abcdef"<br>
+                    >>> for i in cadena:  # Iteramos sobre una cadena, que también es iterable<br>
+                    ...     print(i, end=', ')  # Añadiendo end=', ' al final hacemos que no introduzca un salto de línea, sino una coma y un espacio<br>
+                    ...<br>
+                    a, b, c, d, e, f,<br>
+                </code>
+            </div>
+        </section>
+        </div>
+        <nav id="navbar">
+            <header><h1>Documentacion Python</h1></header>
+            <section>
+            <h1><a href="#Inicio" class="nav-link">Inicio</a></h1>
+            <h1><a href="#Historia" class="nav-link">Historia</a></h1>
+            <h1><a href="#Caracteristicas" class="nav-link">Caracteristicas</a></h1>
+            <h1><a href="#Filosofia" class="nav-link">Filosofia</a></h1>
+            <h1><a href="#Modo_Interactivo" class="nav-link">Modo Interactivo</a></h1>
+            <h1><a href="#Comentarios" class="nav-link">Comentarios</a></h1>
+            <h1><a href="#Variables" class="nav-link">Variables</a></h1>
+            <h1><a href="#Condicionales" class="nav-link">Condicionales</a></h1>
+            <h1><a href="#Bucle_for" class="nav-link">Bucle for</a></h1>
+            </section>
+            
+        </nav>
+    </main>
+</body>
+</html>
